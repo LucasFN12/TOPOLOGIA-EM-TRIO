@@ -1,0 +1,13 @@
+﻿SW-01
+
+
+* Hostname (SW-01) ok
+* BANNER (ACESSO APENAS PARA PESSOAS AUTORIZADAS! )
+* SENHA ENABLE (enable secret lucascaique*enable)
+* SENHA CONSOLE (line console 0 + password lucascaique + login)
+* INTERFACE VLAN1 (IP ADDRESS 192.168.0.254 255.255.255.0 + NO SHUTDOWN)
+* CONFIGURAR SSH (dominío 1rede.local) (1024 bits)
+* CONFIGURAR GATEWAY (IP DEFAULT--GATEWAY 192.168.0.1)
+* CRIAR USERNAME (username lucascaique privilege 15 secret 123)
+* ATIVAR LOGIN USERNAME (login local no console e vty)
+* CRIPTOGRAFAR TODAS A SENHAS (service password-encryption)
